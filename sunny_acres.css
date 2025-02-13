@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    margin: 0px 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-cont{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.left-cont img{
+    width: 100%;
+    height: 150px;
+}
+.left-inner h2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.left-inner h1{
+      font-size: 100px;
+}
+
+/*  contaier right content */
+.right-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px;
+    margin-right: 60px;
+    align-items: flex-end;
+}
+
+
+
+
+/*  main conntent */
+
+.main-cont{
+    margin: 0px 20px;
+    display: flex;
+   
+}
+.main-cont ul {
+    margin: 25px 0px;
+}
+.main-cont ul li{
+    padding: 5px;
+    list-style: none;
+}
+    
+.main-left{
+    flex: 18%;
+    border: 2px solid black;
+    background: rgb(175, 180, 175);
+    height:400px
+}
+.main-right{
+    flex: 80%;
+}
+
+.main-left ul li {
+  list-style: none;
+  padding: 18px 5px;
+  font-size: 20px;
+  /* color: white; */
+  /* margin-left: 5px; */
+}
+.main-left ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+/* main - right  */
+
+.main-right {
+    margin-left: 10px;
+}
+
+.main-right h1{
+    font-size: 3rem;
+    text-align: center;
+    border: 2px solid black;
+    font-family: cursive;
+    letter-spacing: 15px;
+    background: #3b3a3a;
+    color: white;
+}
+.main-right h2{
+  border: 2px solid black;
+  font-size: 2rem;
+  padding-left: 20px;
+  letter-spacing: 15px;
+  background: #1c9d0b;
+}
+
+.img-text img{
+    float: right;
+    border: 1px solid black;
+}
+.img-text p{
+    margin: 20px 0px;
+    margin-left: 5px;
+}
+
+
+/* footer */
+.footer {
+    /* text-align: center; */
+    /* font-size: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5a5858;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+
+/* hover effects   */
+.main-left ul li:hover{
+    background: #665454;
+    
+}
+.main-left ul li a:hover{
+    color: #74d667;
+}
+
+
+
+
